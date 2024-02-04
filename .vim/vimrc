@@ -1,2 +1,27 @@
-set number
+" Set mapleader.
+let mapleader = " "
+:inoremap jk <esc>
+
+" Edit vimrc in vertical split.
+:nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+" Source vimrc.
+:nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" TODO: Edit ideas.md.
+" :nnoremap <leader>ei :e ~/pan/ideas.md
+
 colorscheme darkblue
+syntax on
+filetype plugin indent on
+
+set laststatus=2
+set number
+set termguicolors
+set wildmenu
+
+set autoindent
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
