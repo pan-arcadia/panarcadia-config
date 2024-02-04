@@ -4,11 +4,12 @@ let mapleader = " "
 
 " Edit vimrc in vertical split.
 :nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
 " Source vimrc.
 :nnoremap <leader>sv :source $MYVIMRC<cr>
 
-" TODO: Edit ideas.md.
-" :nnoremap <leader>ei :e ~/pan/ideas.md
+" Edit pannotes.md
+:nnoremap <leader>ei :vsplit ~/pan/pannotes/ideas.md<cr>
 
 colorscheme darkblue
 syntax on
@@ -21,7 +22,6 @@ set wildmenu
 
 set autoindent
 set expandtab
-set tabstop=4
-set softtabstop=4
 set shiftwidth=4
-
+set softtabstop=4
+set tabstop=4
