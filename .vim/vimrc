@@ -12,6 +12,9 @@ let mapleader = " "
 " :nnoremap <leader>ei :vsplit ~/pan/ideas.md<cr>
 :nnoremap <leader>ei :e ~/pan/ideas.md<cr>
 
+" Toggle Explore - Split left.
+:nnoremap <leader>fe :Lexplore<cr> 
+
 colorscheme darkblue
 syntax on
 filetype plugin indent on

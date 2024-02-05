@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/jupiter/dotfiles/.vim'
+let g:netrw_dirhist_7='/home/jupiter/dotfiles/.vim/pack/panarcadia/start/commentary'
+let g:netrw_dirhist_6='/home/jupiter/dotfiles/.vim/pack/panarcadia/start'
+let g:netrw_dirhist_5='/home/jupiter/dotfiles/.vim/pack/panarcadia'
+let g:netrw_dirhist_4='/home/jupiter/dotfiles/.vim/pack'
+let g:netrw_dirhist_3='/home/jupiter/dotfiles/.vim'
 let g:netrw_dirhist_2='/home/pan/dotfiles'
 let g:netrw_dirhist_1='/home/pan/pan/notes'
