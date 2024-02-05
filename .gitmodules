@@ -7,3 +7,6 @@
 [submodule ".vim/pack/panarcadia/start/vim-live-server"]
 	path = .vim/pack/panarcadia/start/vim-live-server
 	url = https://github.com/wolandark/vim-live-server
+[submodule ".vim/pack/panarcadia/start/markdown-preview"]
+	path = .vim/pack/panarcadia/start/markdown-preview
+	url = https://github.com/iamcco/markdown-preview.nvim
