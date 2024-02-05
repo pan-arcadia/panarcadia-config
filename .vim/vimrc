@@ -9,7 +9,8 @@ let mapleader = " "
 :nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Edit pannotes.md
-:nnoremap <leader>ei :vsplit ~/pan/pannotes/ideas.md<cr>
+" :nnoremap <leader>ei :vsplit ~/pan/ideas.md<cr>
+:nnoremap <leader>ei :e ~/pan/ideas.md<cr>
 
 colorscheme darkblue
 syntax on
@@ -25,3 +26,9 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+
+" Installed Plugins
+" ~/dotfiles/.vim/pack/panarcadia/start/
+"
+" vim-commentary
+" vim-airline
