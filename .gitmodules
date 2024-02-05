@@ -4,3 +4,6 @@
 [submodule ".vim/pack/panarcadia/start/commentary"]
 	path = .vim/pack/panarcadia/start/commentary
 	url = https://tpope.io/vim/commentary.git
+[submodule ".vim/pack/panarcadia/start/vim-live-server"]
+	path = .vim/pack/panarcadia/start/vim-live-server
+	url = https://github.com/wolandark/vim-live-server
